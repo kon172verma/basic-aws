@@ -1,5 +1,5 @@
-import { host, port, server } from '../src/ex2';
-import { restRequest } from '../src/rest';
+import { host, port, server } from '../src/ex2-rest-server';
+import { restRequest } from './rest-requests';
 
 describe('restAPI Unit Tests', () => {
 
