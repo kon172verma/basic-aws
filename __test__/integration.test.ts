@@ -3,7 +3,7 @@ import { restRequest } from './rest-requests';
 
 describe('restAPI Integration Test', () => {
 
-    it('Test for REST API request', async () => {
+    it('Test for REST API requests', async () => {
         
         server.listen(port, host, () => {
             console.log(`Server is running on http://${host}:${port}`);
