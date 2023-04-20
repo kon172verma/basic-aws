@@ -3,11 +3,12 @@ name: Tests
 on:
   push:
     branches: [ main ]
+  pull_request:
+      branches: [ main ]
 
 jobs:
   tests:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [16.x]
