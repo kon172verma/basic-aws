@@ -13,7 +13,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      
+      - name: Use Node.js ${{martix.node-version}}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{martix.node-version}}
+      - name: npm install
+        run: npm install
       - name: Run integration test
         run: npm test
 
