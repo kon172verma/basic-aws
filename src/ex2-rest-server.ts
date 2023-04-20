@@ -1,6 +1,6 @@
 import * as http from 'http';
 
-export const host = 'localhost';
+export const host = '0.0.0.0';
 export const port = 8080;
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

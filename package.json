@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "ts-node src/ex2.ts"
+    "start": "ts-node src/ex2-rest-server.ts"
   },
   "keywords": [],
   "author": "",
